@@ -56,15 +56,19 @@ extension CategoryTableViewCell: UICollectionViewDelegate, UICollectionViewDataS
         case 0:
             cell.categoryButton.setTitle("All", for: .normal)
             cell.categoryButton.setImage(UIImage(named: "categoryallicon"), for: .normal)
+            cell.categoryButton.tintColor = .white
         case 1:
             cell.categoryButton.setTitle("Phones", for: .normal)
             cell.categoryButton.setImage(UIImage(named: "categoryphonesicon"), for: .normal)
+            cell.categoryButton.tintColor = .white
         case 2:
             cell.categoryButton.setTitle("Laptops", for: .normal)
             cell.categoryButton.setImage(UIImage(named: "categorylaptopsicon"), for: .normal)
+            cell.categoryButton.tintColor = .white
         case 3:
             cell.categoryButton.setTitle("Cameras", for: .normal)
             cell.categoryButton.setImage(UIImage(named: "categorycameraicon"), for: .normal)
+            cell.categoryButton.tintColor = .white
         default: break }
         return cell
     }

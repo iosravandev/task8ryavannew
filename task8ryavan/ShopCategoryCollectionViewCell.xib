@@ -16,7 +16,7 @@
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="re7-Y5-WlB">
                     <rect key="frame" x="0.0" y="0.0" width="80" height="105.33333333333333"/>
                     <subviews>
-                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="VQ8-ab-tFK">
+                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="VQ8-ab-tFK">
                             <rect key="frame" x="0.0" y="0.0" width="80" height="80"/>
                             <constraints>
                                 <constraint firstAttribute="height" constant="80" id="DaR-97-r4t"/>
@@ -32,10 +32,13 @@
                     </subviews>
                     <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     <constraints>
+                        <constraint firstItem="VQ8-ab-tFK" firstAttribute="top" secondItem="re7-Y5-WlB" secondAttribute="top" id="0hd-wu-lID"/>
                         <constraint firstItem="VQ8-ab-tFK" firstAttribute="top" secondItem="re7-Y5-WlB" secondAttribute="top" id="51m-Up-t77"/>
+                        <constraint firstAttribute="trailing" secondItem="VQ8-ab-tFK" secondAttribute="trailing" id="9AB-7L-Oj1"/>
                         <constraint firstItem="VQ8-ab-tFK" firstAttribute="leading" secondItem="re7-Y5-WlB" secondAttribute="leading" id="D31-Pr-Nyz"/>
                         <constraint firstItem="yaK-Ay-bE0" firstAttribute="top" secondItem="VQ8-ab-tFK" secondAttribute="bottom" constant="5" id="FD8-G3-eVq"/>
                         <constraint firstAttribute="bottom" secondItem="yaK-Ay-bE0" secondAttribute="bottom" id="Mxu-ot-LWf"/>
+                        <constraint firstItem="VQ8-ab-tFK" firstAttribute="leading" secondItem="re7-Y5-WlB" secondAttribute="leading" id="RZ7-eS-GzT"/>
                         <constraint firstItem="yaK-Ay-bE0" firstAttribute="leading" secondItem="re7-Y5-WlB" secondAttribute="leading" id="bXt-MB-i4z"/>
                         <constraint firstAttribute="trailing" secondItem="yaK-Ay-bE0" secondAttribute="trailing" id="bbB-EM-yiQ"/>
                         <constraint firstAttribute="trailing" secondItem="VQ8-ab-tFK" secondAttribute="trailing" id="xfM-gZ-Za4"/>

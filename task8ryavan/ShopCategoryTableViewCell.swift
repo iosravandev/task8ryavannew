@@ -13,7 +13,7 @@ class ShopCategoryTableViewCell: UITableViewCell {
         didSet {
             let flowLayout = UICollectionViewFlowLayout()
             shopCategoryCollectionView.collectionViewLayout = flowLayout
-            flowLayout.scrollDirection = .horizontal
+            flowLayout.scrollDirection = .vertical
             flowLayout.minimumLineSpacing = 10
             flowLayout.itemSize = CGSize(width: 80 , height: 112 )
             shopCategoryCollectionView.delegate = self
